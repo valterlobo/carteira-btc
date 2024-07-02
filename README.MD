@@ -5,7 +5,6 @@ Este código gera uma nova carteira Bitcoin HD na testnet, incluindo o endereço
 
 ### OBS :  importante armazenar a chave privada e a frase mnemônica em um local seguro, pois elas são necessárias para acessar e controlar os fundos da carteira.
 
-
 Como gerar uma carteira Bitcoin HD (Hierarchical Deterministic) utilizando as bibliotecas `bip32`, `bip39` e `bitcoinjs-lib`.
 
 

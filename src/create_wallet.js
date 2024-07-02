@@ -34,16 +34,12 @@ const main = async () => {
         network: network, // Especificando a rede (testnet)
     }).address; // Gerando o endereço P2PKH
 
-    //balance 
-    const balance = bitcoin.payments.p2pkh({ pubkey: node.publicKey, network });
-
 
     // Exibindo os detalhes da carteira
     console.log("Carteira");
     console.log("Endereço: ", btcAddress); // Exibindo o endereço Bitcoin gerado
     console.log("Chave privada:", node.toWIF()); // Exibindo a chave privada em formato WIF (Wallet Import Format)
     console.log("Seed:", mnemonic); // Exibindo a frase mnemônica usada para gerar a seed
-    console.log("Balance:", balance.output.toString ); // Exibindo
 
     console.log(">> CREATE WALLET FINISH")
 }
